@@ -7,7 +7,6 @@ def test_check_footer_text(browser):
         return True
     else:
         return False
-
 def test_elements_check_text(browser):
     demo_qa_page = DemoQa(browser)
     demo_qa_page.visit()
