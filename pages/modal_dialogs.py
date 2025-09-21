@@ -7,3 +7,7 @@ class DialogsPage(BasePage):
         super().__init__(driver, self.base_url)
         self.btns_third_menu = WebElement(driver, 'div:nth-child(3) > div > ul > li')
         self.btn_header_icon = WebElement(driver, '#app > header > a > img')
+        self.small_modal = WebElement(driver, '#showSmallModal')
+        self.large_modal = WebElement(driver, '#showLargeModal')
+        self.close_small_modal = WebElement(driver, '#closeSmallModal')
+        self.close_large_modal = WebElement(driver, '#closeLargeModal')

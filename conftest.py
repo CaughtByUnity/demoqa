@@ -7,5 +7,5 @@ def browser():
     service = Service('/home/caughtbyunity/PycharmProjects/demoqa/chromedriver')
     driver = webdriver.Chrome(service=service)
     yield driver
-    driver.set_window_size(1000, 1000)
+    # driver.set_window_size(1000, 1000)
     driver.quit()
